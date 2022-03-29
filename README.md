@@ -22,7 +22,7 @@ pod 'JHComponents'
 
 ## Author
 
-jade_xiaohui, sjh86126@yeah.net
+JadeXH, sjh86126@yeah.net
 
 ## License
 
