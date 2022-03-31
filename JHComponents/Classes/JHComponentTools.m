@@ -7,9 +7,11 @@
 
 #import "JHComponentTools.h"
 
+
 @implementation JHComponentTools
 
 - (void)printJHComponentTools {
     NSLog(@"printJHComponentTools****");
+    
 }
 @end
