@@ -7,6 +7,8 @@
 //
 
 #import "JHViewController.h"
+#import "JHTestView.h"
+#import "JHComponentTools.h"
 
 @interface JHViewController ()
 
@@ -17,7 +19,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    JHComponentTools *tools = [[JHComponentTools alloc] init];
+    [tools printJHComponentTools];
+    
+    
+    JHTestView *testView = [[JHTestView alloc] initWithFrame:CGRectMake(50, 350, 250, 160)];
+    [testView showSDWebImageView];
+    [self.view addSubview:testView];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

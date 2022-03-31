@@ -16,8 +16,8 @@
 
 - (void)showSDWebImageView {
     UIImageView *imgView = [[UIImageView alloc] init];
-    [imgView setFrame:self.frame];
-    NSString *strUrl = @"https://github.com/JadeXH/luatest/blob/master/1111.jpg";
+    [imgView setFrame:self.bounds];
+    NSString *strUrl = @"http://g.hiphotos.baidu.com/image/pic/item/6d81800a19d8bc3e770bd00d868ba61ea9d345f2.jpg";
     [imgView sd_setImageWithURL:[NSURL URLWithString:strUrl ? strUrl:@""] placeholderImage:nil];
     [self addSubview:imgView];
 }

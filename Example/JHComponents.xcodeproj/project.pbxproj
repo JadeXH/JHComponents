@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F75C08994A87554C500336 /* Pods_JHComponents_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4770F723DCA8B325667CF04E /* Pods_JHComponents_Tests.framework */; };
-		3B5A533486C51819D070B8F6 /* Pods_JHComponents_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305EE8273E883741E010F8C1 /* Pods_JHComponents_Example.framework */; };
+		433B0A99858E21A35212C76A /* libPods-JHComponents_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9CB5CB3C898A35005EC03E /* libPods-JHComponents_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D68D4E55B32924E84EACCEE0 /* libPods-JHComponents_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDDE0C370BBE19278D2E8C2 /* libPods-JHComponents_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		305EE8273E883741E010F8C1 /* Pods_JHComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9CB5CB3C898A35005EC03E /* libPods-JHComponents_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHComponents_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		360DAB6684F16DACB460198D /* Pods-JHComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHComponents_Example.release.xcconfig"; path = "Target Support Files/Pods-JHComponents_Example/Pods-JHComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4770F723DCA8B325667CF04E /* Pods_JHComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDDE0C370BBE19278D2E8C2 /* libPods-JHComponents_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHComponents_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JHComponents_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHComponents_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3B5A533486C51819D070B8F6 /* Pods_JHComponents_Example.framework in Frameworks */,
+				433B0A99858E21A35212C76A /* libPods-JHComponents_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				04F75C08994A87554C500336 /* Pods_JHComponents_Tests.framework in Frameworks */,
+				D68D4E55B32924E84EACCEE0 /* libPods-JHComponents_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				305EE8273E883741E010F8C1 /* Pods_JHComponents_Example.framework */,
-				4770F723DCA8B325667CF04E /* Pods_JHComponents_Tests.framework */,
+				2C9CB5CB3C898A35005EC03E /* libPods-JHComponents_Example.a */,
+				3CDDE0C370BBE19278D2E8C2 /* libPods-JHComponents_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E687296732277D225935FFF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,26 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E687296732277D225935FFF3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JHComponents_Example/Pods-JHComponents_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JHComponents/JHComponents.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JHComponents.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JHComponents_Example/Pods-JHComponents_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
